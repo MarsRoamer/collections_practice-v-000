@@ -35,4 +35,5 @@ def find_a(arr)
       new_arr.push(word)
     end
     new_arr
+  end
 end

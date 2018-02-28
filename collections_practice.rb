@@ -31,3 +31,11 @@ end
 def find_a(arr)
 arr.select {|word| word[0] == 'a'}
 end
+
+def sum_array(arr)
+  sum = 0
+  arr.each do |n|
+    sum += n
+  end
+  sum
+end
